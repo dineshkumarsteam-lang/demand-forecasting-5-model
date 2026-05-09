@@ -1,0 +1,28 @@
+======================================================================
+ARIMA MODEL - SUMMARY REPORT
+======================================================================
+
+MODEL TYPE
+----------------------------------------------------------------------
+Seasonal ARIMA (SARIMA) - Time Series Model
+
+MODEL METRICS
+----------------------------------------------------------------------
+Test MAE:    $30,034,780.40
+Test MAPE:   86.06%
+Test RMSE:   $32,850,609.24
+
+MODEL PARAMETERS
+----------------------------------------------------------------------
+Order (p,d,q): (1, 1, 1)
+Seasonal Order (P,D,Q,s): (1, 1, 1, 52)
+Data aggregation: Sum of all stores
+Seasonality: 52 weeks (annual)
+
+KEY DIFFERENCES FROM TREE-BASED MODELS
+----------------------------------------------------------------------
+• Uses only historical sales patterns
+• No external features (temperature, fuel price, etc.)
+• Captures trend and seasonality explicitly
+• Statistical approach vs machine learning
+• Works on aggregated time series
